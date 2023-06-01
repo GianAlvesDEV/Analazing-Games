@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Roboto:wght@300&display=swap');
+
+/*Style da pagina principal */
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: rgb(22, 22, 22);
+  padding: 0;
+  margin: 0;
+}
+
+.Logo {
+  width: 85px;
+  height: 85px;
+  border-radius: 100px;
+  background-color: white;
+  margin: 6px;
+}
+
+.Logo img {
+  height: 60px;
+  width: 60px;
+  margin: 7px;
+  padding: 4px;
+}
+
+header {
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(15, 15, 15);
+  box-shadow: 0 0 1rem black;
+}
+
+header ul {
+  font-size: 25px;
+  display: flex;
+  margin: 30px;
+}
+
+header li {
+  color: white;
+  list-style-type: none;
+  cursor: pointer;
+  padding-left: 2rem;
+}
+
+.banner-stc {
+  width: 100%;
+  opacity: 0.1;
+}
+
+.footer {
+  width: 100%;
+  height: 100px;
+  background-color: rgb(15, 15, 15);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  box-shadow: 0 0 1rem black;
+  
+}
