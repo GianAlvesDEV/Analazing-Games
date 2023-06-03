@@ -75,6 +75,9 @@ ul li a:focus{
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
+  background-attachment: fixed;
+  overflow-y: auto;
+  overflow-x: hidden;
 }
 
 .conteudo h1 {
@@ -92,8 +95,84 @@ ul li a:focus{
 }
 
 #Titulo {
+  font-size: 35px;
   text-align: center;
   padding: 10px;
 
 }
+
+/* Style página Sobre */
+
+#Paragrafo {
+  
+  padding-left: 50px;
+  padding-right: 50px;
+  text-align: justify;
+  display: flex;
+  font-size: 25px;
+}
+
+.Nao-olhe {
+  width: 900px;
+  height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.subtitulo {
+  text-align: center;
+  font-size: 11px;
+  color: white;
+}
+
+.footer  {
+  height: 10vh;
+  background-color: rgb(15, 15, 15);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  box-shadow: 0 0 1rem black;
+
+}
+
+.copyright {
+  color: white;
+  font-size: 15px;
+}
+
+.Ico-Yorda {
+  width: 900px;
+  height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.luzesombra {
+ 
+  text-align: center;
+  font-size: 20px;
+}
+
+.Mal {
+  width: 900px;
+  height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.Dualismo {
+  width: 900px;
+  height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+
+
+
 
