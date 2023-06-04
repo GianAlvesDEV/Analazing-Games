@@ -27,8 +27,7 @@
     </header>
     <br>
     <br>
-    <h1 id="Titulo">Deixe sua seguestão de próximo game para ser feito o memorial</h1>
-    <br>
+    <h1 id="Titulo">Deixe sua sugestão de próximo game para ser feito o memorial</h1>
 
     <form >
       <label for="nomeesobrenome">Nome e sobrenome</label>
@@ -38,12 +37,11 @@
       <input class="input-padrao" type="email" id="email" required placeholder="seuemail@dominio.com">
 
       <label for="telefone">Telefone</label>
-      <input class="input-padrao" type="tel" id="telefone" required placeholder="+99 (99) 9999-9999">
+      <input class="input-padrao" type="tel" id="telefone" required placeholder="number" pattern="[0-9]+" title="Digite apenas números">
 
       <label for="mensagem">Sugestao de game</label>
       <textarea id="mensagem" cols="70" rows="10" class="input-padrao" required></textarea>
 
-      
       <legend>Como prefere o nosso contato?</legend>
 
       <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">Email</label>
@@ -60,7 +58,7 @@
         </select>
       
 
-      <label class="checkbox"><input type="checkbox">Gostaria de receber nossas novidades por e-mail ?</label>
+      <label class="checkbox"><input type="checkbox"> Gostaria de receber nossas novidades por e-mail ?</label>
 
       <input type="submit" value="Enviar formulário" class="enviar">
 
@@ -100,7 +98,6 @@
      </footer>
 
  </div>
-
 
 </body>
 </html>

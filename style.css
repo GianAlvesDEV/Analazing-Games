@@ -21,11 +21,13 @@
   border-radius: 100px;
   background-color: white;
   margin: 7px;
+  background-image: linear-gradient(to bottom right, white, #7A807F);
 }
 
 .logo {
   width: 170px; 
   height: 170px;
+  
 }
 
 
@@ -88,6 +90,13 @@ ul li a:focus{
   z-index: 1;
 }
 
+#Titulo {
+  font-size: 35px;
+  text-align: center;
+  padding: 10px;
+
+}
+
 .conteudo p1 {
   font-size: 15px;
   text-align: center;
@@ -95,12 +104,20 @@ ul li a:focus{
   z-index: 1;
 }
 
-#Titulo {
-  font-size: 35px;
-  text-align: center;
-  padding: 10px;
-
+.preco {
+  margin: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
+.video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
 
 /* Style página Sobre */
 
@@ -183,7 +200,7 @@ ul li a:focus{
 /*Style da pagina de sugestao */
 
 form {
-  margin: 40px 0;
+  margin: 35px 50px;
   color: white;
 }
 
@@ -230,7 +247,7 @@ form label, form legend {
 }
 
 table {
-  margin: 20px 0 40px;
+  margin: 20px 50px 40px;
 
 }
 
